@@ -1,0 +1,17 @@
+.form-group {
+  margin-bottom: 1em;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.form-group-p {
+  display: block;
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.input-group {
+  margin-bottom: 1em;
+}

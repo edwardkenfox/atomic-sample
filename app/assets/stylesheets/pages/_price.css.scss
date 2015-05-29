@@ -1,0 +1,37 @@
+section.price {
+  @extend %section-spacing;
+  background-color: white;
+
+  table {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  thead {
+    th {
+      padding: .5em;
+      text-align: center;
+    }
+  }
+  tbody {
+    tr:hover {
+      td {
+        color: $color-text;
+      }
+    }
+    th,td {
+      padding: 1em;
+      font-weight: bold;
+    }
+    th {
+      background-color: gray;
+      color: $color-text-bright;
+    }
+    td {
+      color: gray;
+    }
+    .price {
+      text-align: right;
+    }
+  }
+}

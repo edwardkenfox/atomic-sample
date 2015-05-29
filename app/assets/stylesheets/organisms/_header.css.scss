@@ -1,0 +1,31 @@
+.site-header {
+  width: 100%;
+  height: $site-header-height;
+  background-color: $color-grey;
+  a {
+    color: white;
+  }
+}
+
+.site-header-inner {
+  height: 100%;
+  .site-menu {
+    margin-left: auto;
+    .nav-list-item-link:hover {
+      text-decoration: underline;
+    }
+    .features,
+    .pricing {
+      display: none;
+        display: inline-block;
+      }
+    }
+  }
+  .btn-sign-up {
+    @extend .btn;
+    border-color: $brand-red;
+    &:hover {
+      background-color: $brand-red;
+    }
+  }
+}

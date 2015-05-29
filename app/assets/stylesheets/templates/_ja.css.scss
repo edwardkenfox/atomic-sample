@@ -1,0 +1,38 @@
+html[lang="ja"] {
+  body {
+    font-family: 'YuGothic', 'Yu Gothic', 'Hiragino Maru Gothic Pro', sans-serif;
+    font-weight: 100;
+
+    button,
+    input,
+    textarea,
+    select,
+    blockquote {
+      font-family: $font-stack-ja;
+    }
+  }
+
+  h1 {
+    font-size: 290%;
+  }
+
+  h2 {
+    font-size: 230%;
+    font-weight: 900;
+  }
+
+  h3 {
+    font-size: 150%;
+    font-weight: 900;
+    line-height: 1.2;
+  }
+
+  h4 {
+    font-size: 130%;
+  }
+
+  h5 {
+    font-size: 100%;
+    font-weight: 700;
+  }
+}

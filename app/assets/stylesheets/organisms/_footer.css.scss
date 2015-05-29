@@ -1,0 +1,27 @@
+.site-footer {
+  padding: 3em 0;
+  background-color: $color-grey;
+  color: $color-text-bright;
+  .nav-list {
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid lighten($color-grey, 10%);
+  }
+  a {
+    color: white;
+  }
+  small {
+    color: lighten($color-grey, 20%);
+  }
+}
+
+.footer-social-links {
+  float: right;
+  padding-top: 1em;
+  .fa {
+    margin-right: 1em;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}

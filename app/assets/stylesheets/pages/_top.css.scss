@@ -1,0 +1,9 @@
+section.support {
+  @extend %section-spacing;
+  input {
+    margin: 0 1em;
+  }
+  input[type="submit"] {
+    float: right;
+  }
+}

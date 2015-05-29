@@ -1,0 +1,11 @@
+article.about-us {
+  @extend %section-spacing;
+  background-color: white;
+  iframe {
+    margin: 1em;
+  }
+}
+
+table.executives {
+  width: 50%;
+}

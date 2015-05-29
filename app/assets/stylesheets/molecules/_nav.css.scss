@@ -1,0 +1,11 @@
+.nav-list {
+  padding-left: 0;
+}
+
+.nav-list-item {
+  display: inline-block;
+  margin-right: 1.45em;
+  &:last-child {
+    margin-right: 0;
+  }
+}

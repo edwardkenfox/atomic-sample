@@ -1,0 +1,38 @@
+input, select {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  box-shadow: none;
+  font-family: $font-stack;
+  font-size: 100%;
+  line-height: normal;
+  padding: $input-padding;
+  &:focus {
+    outline: none;
+    background-color: lighten($yellow, 10%);
+  }
+
+  &[type=submit].link {
+    background-color: transparent;
+    border-radius: none;
+    color: white;
+    padding: inherit;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+textarea {
+  background-color: white;
+  border: none;
+  border-radius: 100px;
+  box-shadow: none;
+  font-family: $font-stack;
+  font-size: 100%;
+  width: 100%;
+  &:focus {
+    outline: none;
+    background-color: lighten($brand-yellow, 10%);
+  }
+}

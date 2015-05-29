@@ -1,0 +1,28 @@
+// Colors
+
+// Palette
+$brand-red: #ec4862;
+$brand-blue: #77c4d3;
+$brand-yellow: #f6f792;
+
+// UI
+$color-primary: $brand-red;
+$color-grey: #333744;
+$color-grey-darker: #0d1424;
+$color-lightgray: #ddd;
+$color-smoke: #f4f3f3;
+
+$color-bg: $color-smoke;
+$color-text: $color-grey-darker;
+
+// Typography
+$font-stack: 'Lato', 'HiraMaruPro-W4', sans-serif;
+
+$font-size-lg: 18px;
+$font-size-md: 17px;
+$font-size-sm: 16px;
+$font-size-xs: $font-size-sm;
+
+// z-index
+$z-overlay: 100;
+$z-intro-text: 10;
